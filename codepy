@@ -1,0 +1,6 @@
+while True:
+    ff = input("input disits: ")
+    ff2 = []
+    for i in ff:
+        ff2.append(i+'0')
+    print(''.join(ff2))
